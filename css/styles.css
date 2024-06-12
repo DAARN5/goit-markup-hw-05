@@ -533,6 +533,7 @@ font-family: "Raleway", sans-serif;
 }
 .footer-form {
     display: flex;
+    gap: 24px;
 }
 .label {
 gap: 24px;
