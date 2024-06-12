@@ -545,6 +545,11 @@ gap: 24px;
     height: 40px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background-color: transparent;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    color: #ffffff;
     
 }
 .footer-input::placeholder {
@@ -553,12 +558,12 @@ gap: 24px;
     font-size: 12px;
     line-height: 200%;
     letter-spacing: 0.04em;
-    color: #fff;
+    color #ffffff;
 }
 .btn-footer-form{
     border-radius: 4px;
     padding: 8px 24px;
-    width: 165px;
+    min-width: 165px;
     height: 40px;
     background: #4d5ae5;
     font-weight: 500;
@@ -568,7 +573,11 @@ gap: 24px;
     text-align: center;
     color: #fff;
     border: none;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
 }
 
 .backdrop {
